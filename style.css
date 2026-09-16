@@ -49,6 +49,7 @@ body{
     gap: 13px;
     position: absolute;
     bottom: 0;
+    padding: 10px 0;
 }
 
 .footer a{
@@ -90,9 +91,26 @@ body{
 
 .card > *{
     padding-top: 10px;
+    position: relative;
 }
 
 .card img{
     width: 100%;
     object-fit: contain;
+}
+
+.play{
+    width: 28px;
+    height: 28px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 168px;
+    right: 17px;
+    opacity: 0;
+    transition: all 1s ease-out;
 }
