@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
-    <title>Document</title>
+    <title>Spotify - Web Player: Music for everyone</title>
 </head>
 <body>
     <div class="container flex bg-black">
@@ -62,9 +62,15 @@
                 <h1>Spotify Playlists</h1>
                 <div class="cardContainer">
                      <div class="card">
-                        <div class=" play">
-                            pore likha lagbe mone kore 
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141834" fill="#000"
+                                    stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
                         </div>
+
                         <img src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d" alt="">
                         <h1>Happy Hits!</h1>
                         <p>Hits to boost your mood and fill you with happiness!</p>
@@ -75,8 +81,18 @@
                         <p>Hits to boost your mood and fill you with happiness!</p>
                      </div>
                 </div>
+                <div class="playbar">
+                    <div class="songinfo"></div>
+                    <div class="songbuttons">
+                        <img src="prevsong.svg" alt="">
+                        <img src="play.svg" alt="">
+                        <img src="nextsong.svg" alt="">
+                    </div>
+                    <div class="songtime"></div>
+                </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
